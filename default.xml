@@ -1,0 +1,6 @@
+<manifest>
+  <remote fetch="https://github.com/otcshare" name="otcshare"/>
+  
+  <project name="coreboot" path="src/thirdparty/coreboot" remote="otcshare" upstream="main"/>
+  
+</manifest>
