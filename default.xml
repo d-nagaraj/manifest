@@ -6,6 +6,8 @@
   <remote fetch="ssh://git@github.com/otcshare" name="otcshare"/>
   
   <project name="coreboot" path="src/thirdparty/coreboot" remote="otcshare" upstream="main"/>
-  <project name="coreboot_ald-dev_01" path="coreboot" remote="otcshare" upstream="main"/>
+  <project name="coreboot_ald-dev_01" path="coreboot/ald" remote="otcshare" upstream="main"/>
+  <project name="coreboot_mtl-dev_01" path="coreboot/mtl" remote="otcshare" upstream="main"/>
+  <project name="coreboot_blobs" path="coreboot/blobs" remote="otcshare" upstream="main"/>
   
 </manifest>
