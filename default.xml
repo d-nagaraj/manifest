@@ -1,7 +1,9 @@
 <manifest>
   <default sync-j="4" revision="main"/>
-  
+  <!--
   <remote fetch="https://github.com/otcshare" name="otcshare"/>
+  -->
+  <remote fetch="ssh://git@github.com/otcshare" name="otcshare"/>
   
   <project name="coreboot" path="src/thirdparty/coreboot" remote="otcshare" upstream="main"/>
   
